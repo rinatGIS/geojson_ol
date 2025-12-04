@@ -20,7 +20,7 @@ const vectorLayer = new ol.layer.Vector({
             stroke: new ol.style.Stroke({color: '#000000ff', width: 1})
         });
     },
-    visible: false
+    visible: true
 });
 
 const map = new ol.Map({
